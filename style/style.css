@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "APompadour";
+    src: url("../fonts/APompadourSample.woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 340px;
+    max-width: 768px;
+    min-height: 340px;
+    margin-top: 10%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#textos {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: #22334E;
+}
+
+p {
+    font-family: "APompadour", sans-serif;
+    font-size: 1.2em;
+    color: #94969F;
+}
